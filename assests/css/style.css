@@ -1,0 +1,55 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color to black */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Center content */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the input and button */
+#locationInput {
+    padding: 25px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#checkWeatherBtn {
+    padding: 12px 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style loading messages */
+#loading1, #loading2, #loading3, #loading4 {
+    display: none;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+/* Set output styles */
+#output {
+    margin-top: 20px;
+    font-size: 50px;
+}
